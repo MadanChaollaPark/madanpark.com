@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">EUJobs preview</title>
+  <desc id="desc">EU policy job board filters, salary data, and job cards.</desc>
+  <rect width="720" height="480" fill="#f5f7ff"/>
+  <rect x="54" y="52" width="612" height="376" rx="8" fill="#fff" stroke="#3857d8" stroke-opacity=".22"/>
+  <rect x="86" y="86" width="196" height="308" rx="8" fill="#e8eefc"/>
+  <rect x="314" y="86" width="298" height="74" rx="8" fill="#fff" stroke="#cbd7ff"/>
+  <rect x="314" y="186" width="298" height="74" rx="8" fill="#fff" stroke="#cbd7ff"/>
+  <rect x="314" y="286" width="298" height="74" rx="8" fill="#fff" stroke="#cbd7ff"/>
+  <text x="110" y="126" fill="#101421" font-family="ui-sans-serif, system-ui" font-size="20" font-weight="800">Filters</text>
+  <rect x="110" y="152" width="128" height="14" rx="7" fill="#3857d8"/>
+  <rect x="110" y="190" width="104" height="14" rx="7" fill="#14856f"/>
+  <rect x="110" y="228" width="142" height="14" rx="7" fill="#b83f78"/>
+  <rect x="110" y="266" width="92" height="14" rx="7" fill="#536078"/>
+  <text x="340" y="124" fill="#101421" font-family="ui-sans-serif, system-ui" font-size="19" font-weight="800">Policy officer</text>
+  <text x="340" y="224" fill="#101421" font-family="ui-sans-serif, system-ui" font-size="19" font-weight="800">Public affairs lead</text>
+  <text x="340" y="324" fill="#101421" font-family="ui-sans-serif, system-ui" font-size="19" font-weight="800">Advocacy manager</text>
+  <rect x="512" y="111" width="68" height="20" rx="8" fill="#14856f"/>
+  <rect x="512" y="211" width="68" height="20" rx="8" fill="#14856f"/>
+  <rect x="512" y="311" width="68" height="20" rx="8" fill="#14856f"/>
+</svg>
