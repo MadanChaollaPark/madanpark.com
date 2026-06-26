@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Project KONGOR",
+    "category": "Distributed systems / desktop UX",
+    "url": "/work/kongor/",
+    "status": "featured",
+    "description": "Game-revival infrastructure spanning services, launcher UX, docs, archive tooling, and legacy mod systems."
+  },
+  {
+    "name": "LobbyEar",
+    "category": "Policy intelligence / video AI",
+    "url": "https://github.com/MadanChaollaPark/lobbyear",
+    "status": "featured",
+    "description": "Agentic lobbying mention scanner over VideoDB with transcript windows and evidence clips."
+  },
+  {
+    "name": "EUJobs.co 3.0",
+    "category": "Civic marketplace",
+    "url": "/work/eujobs/",
+    "status": "featured",
+    "description": "Search-first EU affairs job board with salary, deadline, source verification, filters, alerts, and employer posting flows."
+  },
+  {
+    "name": "NeatCode Style Lab",
+    "category": "Interface systems",
+    "url": "/work/neatcode-style-lab/",
+    "status": "featured",
+    "description": "Six versioned interface studies adapted into the portfolio style switcher."
+  },
+  {
+    "name": "Sign Chat",
+    "category": "Accessibility / multimodal AI",
+    "url": "https://github.com/MadanChaollaPark/sign-chat",
+    "status": "public",
+    "description": "Webcam ASL interface that turns signs into ChatGPT conversations with spoken responses."
+  },
+  {
+    "name": "LearnHermes",
+    "category": "Agent infrastructure / education",
+    "url": "https://github.com/MadanChaollaPark/learnhermes",
+    "status": "public",
+    "description": "Twelve-stage TypeScript course for building a persistent personal agent runtime."
+  },
+  {
+    "name": "Tokenmaxing",
+    "category": "AI tools",
+    "url": "https://github.com/MadanChaollaPark/tokenmaxing",
+    "status": "public",
+    "description": "Provider-agnostic leaderboard for tracking and comparing AI token usage across tools."
+  },
+  {
+    "name": "YC Partner Preference Map",
+    "category": "Data / startup research",
+    "url": "https://github.com/MadanChaollaPark/yc-partner-preference-map",
+    "status": "public",
+    "description": "Public data map of YC partner preferences built from sourced company, founder, and partner records."
+  },
+  {
+    "name": "What Remains",
+    "category": "Interactive fiction",
+    "url": "https://github.com/MadanChaollaPark/what-remains",
+    "status": "public",
+    "description": "One-minute browser world where six irreversible choices shape a final inscription."
+  }
+]
