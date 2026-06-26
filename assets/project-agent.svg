@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Agent runtime preview</title>
+  <desc id="desc">Daemon, store, queue, scheduler, skills, and subagents pipeline.</desc>
+  <rect width="720" height="480" fill="#f7f3ea"/>
+  <path d="M96 120h130l72 72h126l72-72h128M96 258h528M96 340h528" fill="none" stroke="#141414" stroke-width="4" stroke-opacity=".28"/>
+  <g fill="#fffdfa" stroke="#141414" stroke-opacity=".3">
+    <rect x="62" y="82" width="150" height="76" rx="8"/>
+    <rect x="258" y="154" width="150" height="76" rx="8"/>
+    <rect x="508" y="82" width="150" height="76" rx="8"/>
+    <rect x="62" y="220" width="150" height="76" rx="8"/>
+    <rect x="258" y="302" width="150" height="76" rx="8"/>
+    <rect x="508" y="302" width="150" height="76" rx="8"/>
+  </g>
+  <g fill="#141414" font-family="ui-sans-serif, system-ui" font-size="20" font-weight="800">
+    <text x="94" y="128">daemon</text>
+    <text x="300" y="200">queue</text>
+    <text x="548" y="128">store</text>
+    <text x="94" y="266">skills</text>
+    <text x="292" y="348">memory</text>
+    <text x="538" y="348">subagents</text>
+  </g>
+</svg>
