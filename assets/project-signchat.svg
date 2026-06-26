@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Sign Chat preview</title>
+  <desc id="desc">Webcam hand landmarks and ChatGPT response panel.</desc>
+  <rect width="720" height="480" fill="#101421"/>
+  <rect x="54" y="56" width="290" height="344" rx="8" fill="#172034" stroke="#74a7ff"/>
+  <rect x="376" y="56" width="290" height="344" rx="8" fill="#fffdfa"/>
+  <circle cx="198" cy="178" r="52" fill="none" stroke="#57dca6" stroke-width="8"/>
+  <path d="M158 250c40-70 84-70 120 0" stroke="#57dca6" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="162" cy="132" r="6" fill="#ffcf5a"/>
+  <circle cx="198" cy="126" r="6" fill="#ffcf5a"/>
+  <circle cx="235" cy="132" r="6" fill="#ffcf5a"/>
+  <text x="402" y="112" fill="#101421" font-family="ui-sans-serif, system-ui" font-size="24" font-weight="800">ASL to ChatGPT</text>
+  <rect x="402" y="150" width="180" height="14" rx="7" fill="#3857d8"/>
+  <rect x="402" y="188" width="220" height="14" rx="7" fill="#b83f78"/>
+  <rect x="402" y="226" width="144" height="14" rx="7" fill="#14856f"/>
+  <rect x="402" y="308" width="116" height="36" rx="8" fill="#101421"/>
+</svg>
