@@ -28,6 +28,13 @@
     "description": "Six versioned interface studies adapted into the portfolio style switcher."
   },
   {
+    "name": "GPTandME",
+    "category": "AI tools / Chrome extension",
+    "url": "https://chromewebstore.google.com/detail/jkejkpkndbbkfjpbjecbaldjgnhjiilf?utm_source=item-share-cb",
+    "status": "featured",
+    "description": "Local-first prompt tracking across supported AI chat products, with usage data kept in Chrome storage."
+  },
+  {
     "name": "Sign Chat",
     "category": "Accessibility / multimodal AI",
     "url": "https://github.com/MadanChaollaPark/sign-chat",
