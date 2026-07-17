@@ -724,3 +724,278 @@ summary {
 
 .operator-site .route-footer { background: var(--op-paper); }
 
+/* Japanese kawaii playground */
+
+.kawaii-site {
+  --kw-bg: #fff5fb;
+  --kw-ink: #33223c;
+  --kw-pink: #ff75b5;
+  --kw-lilac: #8a79ee;
+  --kw-mint: #7de3ce;
+  --kw-yellow: #ffe169;
+  min-height: 100vh;
+  color: var(--kw-ink);
+  background:
+    radial-gradient(circle at 20px 20px, rgba(255,117,181,0.15) 3px, transparent 3.5px),
+    var(--kw-bg);
+  background-size: 40px 40px;
+  font-family: ui-rounded, "Hiragino Maru Gothic ProN", "Yu Gothic", "Arial Rounded MT Bold", system-ui, sans-serif;
+}
+
+.kawaii-site .lens-nav {
+  color: var(--kw-ink);
+  border-bottom: 2px solid var(--kw-ink);
+  background: rgba(255,245,251,0.92);
+  backdrop-filter: blur(18px);
+}
+
+.kawaii-site .lens-brand > span {
+  border: 2px solid var(--kw-ink);
+  border-radius: 14px;
+  color: #fff;
+  background: var(--kw-pink);
+  box-shadow: 3px 3px 0 var(--kw-ink);
+}
+
+.kawaii-site .lens-contact {
+  border: 2px solid var(--kw-ink);
+  border-radius: 999px;
+  background: var(--kw-yellow);
+}
+
+.kawaii-hero {
+  position: relative;
+  min-height: calc(100vh - 62px);
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  padding: 110px 20px 130px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.kawaii-label,
+.kawaii-section-head > p {
+  margin: 0;
+  padding: 8px 13px;
+  border: 2px solid var(--kw-ink);
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 3px 3px 0 var(--kw-ink);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.kawaii-hero h1 {
+  max-width: 12ch;
+  margin: 28px 0 22px;
+  font-size: clamp(3.6rem, 9vw, 8.8rem);
+  line-height: 0.9;
+  letter-spacing: -0.065em;
+  text-shadow: 5px 5px 0 #fff, 8px 8px 0 rgba(51,34,60,0.18);
+}
+
+.kawaii-lede {
+  max-width: 64ch;
+  margin: 0;
+  color: #725c79;
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  font-weight: 650;
+}
+
+.kawaii-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.kawaii-actions a,
+.kawaii-cta a {
+  min-height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border: 2px solid var(--kw-ink);
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 4px 4px 0 var(--kw-ink);
+  font-weight: 900;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.kawaii-actions a:first-child,
+.kawaii-cta a { background: var(--kw-pink); }
+.kawaii-actions a:hover,
+.kawaii-cta a:hover { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--kw-ink); }
+
+.kawaii-mascot {
+  position: absolute;
+  right: 6vw;
+  bottom: 8%;
+  width: 175px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  border: 3px solid var(--kw-ink);
+  border-radius: 44% 56% 50% 50%;
+  background: var(--kw-mint);
+  box-shadow: 8px 9px 0 var(--kw-ink);
+  transform: rotate(5deg);
+}
+
+.mascot-face { display: flex; align-items: center; gap: 18px; font-size: 1.4rem; }
+.mascot-mouth { font-size: 1.6rem; transform: translateY(5px); }
+.kawaii-mascot strong { margin-top: 8px; font-size: 0.82rem; }
+.kawaii-mascot small { margin-top: 3px; }
+.mascot-spark { position: absolute; font-size: 1.8rem; animation: kawaii-float 2.8s ease-in-out infinite; }
+.mascot-spark--one { top: -28px; left: 2px; color: var(--kw-lilac); }
+.mascot-spark--two { top: 8px; right: -28px; color: var(--kw-pink); animation-delay: -1.2s; }
+
+.kawaii-sticker {
+  position: absolute;
+  padding: 10px 13px;
+  border: 2px solid var(--kw-ink);
+  background: #fff;
+  box-shadow: 4px 4px 0 var(--kw-ink);
+  font-size: 0.78rem;
+  font-weight: 900;
+  transform: rotate(-8deg);
+}
+
+.kawaii-sticker--fast { top: 18%; left: 5vw; background: var(--kw-yellow); }
+.kawaii-sticker--kind { bottom: 15%; left: 8vw; background: #c9baff; transform: rotate(6deg); }
+
+.kawaii-cloud {
+  position: absolute;
+  width: 150px;
+  height: 58px;
+  border: 3px solid var(--kw-ink);
+  border-radius: 999px;
+  background: #fff;
+}
+
+.kawaii-cloud::before,
+.kawaii-cloud::after {
+  content: "";
+  position: absolute;
+  bottom: 16px;
+  border: 3px solid var(--kw-ink);
+  border-bottom-color: #fff;
+  border-radius: 50% 50% 0 0;
+  background: #fff;
+}
+
+.kawaii-cloud::before { left: 25px; width: 48px; height: 48px; }
+.kawaii-cloud::after { right: 20px; width: 62px; height: 68px; }
+.kawaii-cloud--one { top: 14%; right: 22%; transform: scale(0.72); }
+.kawaii-cloud--two { bottom: 9%; left: 27%; transform: scale(0.5); }
+
+@keyframes kawaii-float { 50% { transform: translateY(-8px) rotate(8deg); } }
+
+.kawaii-proof-ribbon {
+  min-height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  padding: 15px 20px;
+  border-block: 3px solid var(--kw-ink);
+  background: var(--kw-yellow);
+  text-align: center;
+}
+
+.kawaii-proof-ribbon > span { font-size: 1.65rem; }
+.kawaii-proof-ribbon p { margin: 0; font-weight: 700; }
+
+.kawaii-toybox,
+.kawaii-recipe,
+.kawaii-about,
+.kawaii-cta {
+  padding: clamp(75px, 10vw, 140px) clamp(20px, 5vw, 70px);
+}
+
+.kawaii-toybox { background: #fffdf8; border-block: 3px solid var(--kw-ink); }
+.kawaii-section-head { display: grid; justify-items: center; margin-bottom: 62px; text-align: center; }
+.kawaii-section-head h2 { max-width: 13ch; margin: 24px 0 0; font-size: clamp(2.8rem, 7vw, 7rem); line-height: 0.9; letter-spacing: -0.055em; }
+
+.toy-grid {
+  max-width: 1250px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.toy-card {
+  position: relative;
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(24px, 4vw, 42px);
+  border: 3px solid var(--kw-ink);
+  border-radius: 34px;
+  box-shadow: 9px 10px 0 var(--kw-ink);
+  overflow: hidden;
+}
+
+.toy-card--1 { background: #d9fff4; }
+.toy-card--2 { background: #ffd2e8; }
+.toy-card--3 { background: #e4ddff; }
+.toy-card--4 { background: #fff0a7; }
+
+.toy-icon {
+  position: absolute;
+  top: 24px;
+  right: 26px;
+  width: 72px;
+  height: 72px;
+  display: grid;
+  place-items: center;
+  border: 3px solid var(--kw-ink);
+  border-radius: 50%;
+  background: #fff;
+  font-size: 2.2rem;
+  transform: rotate(7deg);
+}
+
+.toy-number { font-size: 0.72rem; font-weight: 900; text-transform: uppercase; }
+.toy-card h3 { max-width: 8ch; margin: 64px 0 14px; font-size: clamp(2.2rem, 5vw, 5rem); line-height: 0.86; letter-spacing: -0.055em; }
+.toy-card > p { max-width: 46ch; margin: 0; font-weight: 700; }
+.toy-card details { margin-top: 22px; }
+.toy-card summary { width: max-content; font-size: 0.78rem; font-weight: 900; text-decoration: underline; text-underline-offset: 4px; }
+.toy-card details p { max-width: 55ch; margin: 12px 0 0; color: #654e6b; font-size: 0.88rem; }
+.toy-card > a { width: max-content; margin-top: auto; padding-top: 24px; font-size: 0.78rem; font-weight: 900; }
+
+.kawaii-recipe { background: #ffedf6; border-bottom: 3px solid var(--kw-ink); }
+.recipe-track { max-width: 1300px; margin: auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.recipe-track article { position: relative; min-height: 310px; padding: 22px; border: 2px solid var(--kw-ink); border-radius: 24px; background: #fff; box-shadow: 5px 6px 0 var(--kw-ink); text-align: center; }
+.recipe-track article > span { position: absolute; top: 16px; left: 17px; font-size: 0.65rem; font-weight: 900; }
+.recipe-track article > div { width: 82px; height: 82px; margin: 20px auto 24px; display: grid; place-items: center; border: 2px solid var(--kw-ink); border-radius: 30% 70% 45% 55%; background: var(--kw-yellow); font-size: 2.3rem; }
+.recipe-track article:nth-child(2) > div { background: var(--kw-mint); transform: rotate(5deg); }
+.recipe-track article:nth-child(3) > div { background: #cfc2ff; transform: rotate(-6deg); }
+.recipe-track article:nth-child(4) > div { background: #ffc1da; }
+.recipe-track h3 { margin: 0 0 10px; font-size: 1.25rem; }
+.recipe-track p { margin: 0; color: #735f79; font-size: 0.88rem; }
+
+.kawaii-about { display: grid; place-items: center; background: #d8fff5; border-bottom: 3px solid var(--kw-ink); }
+.kawaii-postcard { position: relative; max-width: 940px; padding: clamp(28px, 6vw, 74px); border: 3px solid var(--kw-ink); border-radius: 34px; background: #fffdf8; box-shadow: 12px 13px 0 var(--kw-ink); transform: rotate(-1deg); }
+.kawaii-postcard::after { content: "SEOUL\A AIR MAIL"; white-space: pre; position: absolute; top: 26px; right: 28px; width: 90px; aspect-ratio: 1; display: grid; place-items: center; border: 2px dashed var(--kw-pink); border-radius: 50%; color: var(--kw-pink); font-size: 0.64rem; font-weight: 900; text-align: center; transform: rotate(9deg); }
+.kawaii-postcard > span { color: var(--kw-pink); font-size: 0.72rem; font-weight: 900; text-transform: uppercase; }
+.kawaii-postcard h2 { max-width: 16ch; margin: 22px 0; font-size: clamp(2.2rem, 5vw, 5rem); line-height: 0.94; letter-spacing: -0.045em; }
+.kawaii-postcard > p { max-width: 66ch; color: #66536c; font-size: 1rem; }
+.kawaii-postcard > div { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 26px; }
+.kawaii-postcard > div span { padding: 7px 10px; border: 2px solid var(--kw-ink); border-radius: 999px; background: #fff; font-size: 0.72rem; font-weight: 900; }
+
+.kawaii-cta { min-height: 75vh; display: grid; place-items: center; align-content: center; text-align: center; }
+.cta-face { margin-bottom: 24px; color: var(--kw-lilac); font-size: clamp(1.8rem, 5vw, 4.8rem); }
+.kawaii-cta p { margin: 0; color: var(--kw-pink); font-weight: 900; }
+.kawaii-cta h2 { max-width: 13ch; margin: 18px 0 32px; font-size: clamp(3rem, 8vw, 7rem); line-height: 0.9; letter-spacing: -0.06em; }
+.kawaii-site .route-footer { background: #fffdf8; }
+
