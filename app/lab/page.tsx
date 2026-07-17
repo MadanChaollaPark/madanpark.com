@@ -4,9 +4,9 @@ import { project, publicLinks } from "../site-data";
 import { LabSystems } from "./LabClient";
 
 export const metadata: Metadata = {
-  title: "Inspectable Systems — Madan Park",
+  title: "Signal Intelligence — Madan Park",
   description:
-    "A deep-tech portfolio for AI labs, engineering teams, and product leaders who want inputs, outputs, trust boundaries, and inspectable proof.",
+    "An OSINT-inspired engineering portfolio for teams that want queryable systems, evidence trails, trust boundaries, and inspectable proof.",
 };
 
 const systems = [
@@ -26,29 +26,32 @@ export default function LabPage() {
       <main>
         <header className="lab-hero">
           <div className="lab-statusbar">
-            <span><i /> MCP_LAB ONLINE</span><span>2× HACKATHON 2ND · 2026</span><span>BUILD 2026.07</span>
+            <span><i /> MCP_INTEL ONLINE</span><span>MODE: PASSIVE_OSINT</span><span>PUBLIC + USER-OWNED DATA ONLY</span>
           </div>
           <div className="lab-hero-grid">
             <div className="lab-hero-copy">
-              <p>ENGINEERING PORTFOLIO / TRUST-AWARE SYSTEMS</p>
-              <h1>Messy inputs.<br />Inspectable outputs.</h1>
+              <p>PORTFOLIO INTELLIGENCE / STATIC CASE INDEX</p>
+              <h1>Query the<br />messy systems.</h1>
               <p className="lab-lede">
-                AI products are systems, not model calls. I work on capture, retrieval,
-                interfaces, queues, approvals, recovery, and the source trail users need
-                when the answer matters.
+                Seven case files. Public evidence. No simulated breaches. Search the capture,
+                retrieval, interface, permission, and recovery decisions that turn AI demos
+                into systems people can inspect.
               </p>
               <div className="lab-actions">
-                <a href="#systems">Inspect systems</a>
-                <a href={publicLinks.github} target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href="#systems">Run case index ↓</a>
+                <a href={publicLinks.github} target="_blank" rel="noreferrer">View source ↗</a>
               </div>
             </div>
-            <div className="lab-console" aria-label="System principles console">
-              <div><span>mcp@lab:~$</span> profile --mode systems</div>
-              <p>ROLE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;product engineer / systems operator</p>
-              <p>INPUTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;video · corpora · browser · public records</p>
-              <p>CONSTRAINTS&nbsp;privacy · evidence · legacy · permission</p>
-              <p>OUTPUTS&nbsp;&nbsp;&nbsp;&nbsp;tools people can inspect and operate</p>
-              <div><span>mcp@lab:~$</span> <b className="lab-cursor" aria-hidden="true" /></div>
+            <div className="lab-session" aria-label="Portfolio intelligence session">
+              <div className="lab-session-head"><span>SESSION 05</span><span>READ_ONLY</span></div>
+              <div className="lab-session-query"><span>mcpql&gt;</span> scope:portfolio evidence:public trust:inspectable</div>
+              <pre>{`[OK] dataset mounted\n[OK] 7 case files indexed\n[OK] private operations redacted\n[OK] public links verified`}</pre>
+              <dl>
+                <div><dt>INPUTS</dt><dd>video / corpora / browser / public records</dd></div>
+                <div><dt>METHODS</dt><dd>capture / normalize / retrieve / verify</dd></div>
+                <div><dt>OUTPUTS</dt><dd>operable tools / evidence trails / handoff</dd></div>
+              </dl>
+              <div className="lab-session-ready"><span>READY</span><b className="lab-cursor" aria-hidden="true" /></div>
             </div>
           </div>
           <div className="lab-signal-strip">
@@ -61,25 +64,31 @@ export default function LabPage() {
         </header>
 
         <section className="lab-verification-strip" aria-label="Verification status">
-          <div><span>VERIFIED</span><strong>OpenAI hackathon · 2nd place</strong><small>Organizer-confirmed · June 2026</small></div>
-          <div><span>VERIFIED</span><strong>ElevenLabs × Zed · 2nd place</strong><small>Organizer-confirmed · May 2026</small></div>
-          <div><span>SHIPPED</span><strong>GPTandme Chrome extension</strong><small>Public repository + store surface</small></div>
+          <div><span>CLASSIFICATION: VERIFIED</span><strong>OpenAI hackathon · 2nd place</strong><small>Organizer-confirmed · June 2026</small></div>
+          <div><span>CLASSIFICATION: VERIFIED</span><strong>ElevenLabs × Zed · 2nd place</strong><small>Organizer-confirmed · May 2026</small></div>
+          <div><span>CLASSIFICATION: SHIPPED</span><strong>GPTandme Chrome extension</strong><small>Public repository + store surface</small></div>
         </section>
+
+        <aside className="lab-reference-note">
+          <span>INTERFACE STUDY</span>
+          <p>Visual grammar adapted from a real threat-intelligence workspace; all records below are Madan&apos;s own portfolio data, not live threat telemetry.</p>
+          <a href="https://viz.greynoise.io/" target="_blank" rel="noreferrer">GREYNOISE VISUALIZER ↗</a>
+        </aside>
 
         <section className="lab-systems" id="systems">
           <div className="lab-section-head">
-            <div><span>01</span><p>SYSTEM INDEX</p></div>
-            <h2>Selected machinery</h2>
-            <p>Filter by the kind of signal or trust boundary you care about.</p>
+            <div><span>01</span><p>CASE INDEX</p></div>
+            <h2>Query the archive</h2>
+            <p>Run a field filter. Every result exposes its input, output, trust boundary, tags, and public surface.</p>
           </div>
           <LabSystems items={systems} />
         </section>
 
         <section className="lab-architecture">
           <div className="lab-section-head">
-            <div><span>02</span><p>OPERATING MODEL</p></div>
-            <h2>The unglamorous stack</h2>
-            <p>The layers that determine whether an AI demo becomes a usable system.</p>
+            <div><span>02</span><p>PIPELINE TRACE</p></div>
+            <h2>Signal to decision</h2>
+            <p>The observable layers that determine whether an AI demo survives contact with a real workflow.</p>
           </div>
           <div className="architecture-stack">
             <article><span>05</span><h3>Human decision</h3><p>Clear next action, visible limits, reversible handoff.</p></article>
@@ -92,8 +101,8 @@ export default function LabPage() {
 
         <section className="lab-range">
           <div className="lab-section-head">
-            <div><span>03</span><p>RANGE</p></div>
-            <h2>Comfortable across the seam</h2>
+            <div><span>03</span><p>CAPABILITY FACETS</p></div>
+            <h2>Field surface</h2>
           </div>
           <div className="lab-range-grid">
             <article><span>PRODUCT</span><p>Problem framing, IA, flows, prototypes, user-facing trust states.</p></article>
@@ -106,8 +115,8 @@ export default function LabPage() {
         </section>
 
         <section className="lab-cta">
-          <div><span>READY</span><h2>Bring the corpus, workflow, recording, or system nobody has made legible yet.</h2></div>
-          <a href={publicLinks.email}>INITIATE CONVERSATION →</a>
+          <div><span>NEW CASE / AUTHORIZED SCOPE ONLY</span><h2>Bring the corpus, workflow, recording, or system nobody has made legible yet.</h2></div>
+          <a href={publicLinks.email}>OPEN SECURE CHANNEL →</a>
         </section>
       </main>
       <RouteFooter current="lab" />

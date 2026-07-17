@@ -48,7 +48,7 @@ export const lenses = [
     number: "05",
     title: "Inspectable Systems",
     audience: "AI labs, engineering & product teams",
-    style: "Deep-tech control room",
+    style: "Threat-intel query workspace",
     promise: "Inputs, outputs, trust boundaries, and proof of work for teams that want to inspect the machinery.",
   },
 ] as const;
