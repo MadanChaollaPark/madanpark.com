@@ -408,10 +408,12 @@ summary {
 
 .operator-hero {
   position: relative;
-  min-height: calc(100vh - 62px);
+  min-height: calc(100svh - 62px);
   display: grid;
-  align-content: space-between;
-  padding: clamp(28px, 5vw, 72px);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  align-content: stretch;
+  gap: clamp(18px, 2.4svh, 32px);
+  padding: clamp(24px, 3.2svh, 52px) clamp(28px, 5vw, 72px);
   overflow: hidden;
   border-bottom: 3px solid var(--op-ink);
 }
@@ -426,13 +428,15 @@ summary {
 }
 
 .operator-hero h1 {
-  max-width: 10.3ch;
-  margin: clamp(70px, 10vw, 140px) 0 50px;
+  align-self: center;
+  max-width: 10.8ch;
+  margin: 0;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: clamp(4.1rem, 11.8vw, 12rem);
+  font-size: clamp(3.5rem, min(10.5vw, 13.2svh), 10.5rem);
   font-weight: 900;
   line-height: 0.78;
   letter-spacing: -0.055em;
+  text-wrap: balance;
   text-transform: uppercase;
 }
 
@@ -1847,9 +1851,27 @@ summary {
   .index-note { grid-template-columns: 1fr; }
   .index-footer { flex-direction: column; }
 
-  .operator-hero { min-height: 850px; }
-  .operator-ticket { position: relative; top: auto; right: auto; width: min(100%, 280px); margin: 40px 0 0 auto; }
-  .operator-hero h1 { margin-block: 70px 30px; font-size: clamp(3.9rem, 18vw, 7rem); }
+  .operator-hero {
+    min-height: calc(100svh - 58px);
+    grid-template-rows: repeat(4, auto);
+    align-content: start;
+    gap: 0;
+    padding: clamp(20px, 7vw, 30px) clamp(18px, 6vw, 28px);
+  }
+  .operator-ticket {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: min(calc(100% - 12px), 280px);
+    margin: 32px 8px 4px auto;
+    transform: rotate(1.5deg);
+  }
+  .operator-hero h1 {
+    max-width: 100%;
+    margin-block: clamp(38px, 9svh, 64px) 26px;
+    font-size: clamp(3.4rem, 16vw, 5.5rem);
+    line-height: 0.8;
+  }
   .operator-hero-bottom { grid-template-columns: 1fr; }
   .operator-actions { justify-content: start; }
   .operator-section-title { grid-template-columns: 1fr; }
@@ -1958,3 +1980,4 @@ summary {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
 }
+
