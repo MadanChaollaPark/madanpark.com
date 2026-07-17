@@ -40,7 +40,7 @@ export const lenses = [
     number: "04",
     title: "Pasta Water",
     audience: "Editors, journalists, hosts & readers",
-    style: "Literary review / memoir folio",
+    style: "Midnight cinema / analog memoir",
     promise: "The human story underneath the products: countries, paperwork, ambition, and a new language of power.",
   },
   {
