@@ -24,7 +24,7 @@ export const lenses = [
     number: "02",
     title: "Tiny Useful Machines",
     audience: "Creative technologists & collaborators",
-    style: "Japanese kawaii playground",
+    style: "Glossy sakura girlie-world",
     promise: "A warm, playful tour of humane prototypes, odd experiments, and fast collaboration.",
   },
   {
