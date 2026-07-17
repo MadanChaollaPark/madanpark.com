@@ -29,7 +29,7 @@ const routes = [
   ["/playground", "Tiny Useful Machines — Madan Park", "tiny machines", "Open the toybox"],
   ["/institutions", "The Evidence Brief — Madan Park", "institutions with consequences", "Evidence Sprint"],
   ["/story", "Pasta Water — Madan Park", "Pasta", "Bologna BookClub"],
-  ["/lab", "Inspectable Systems — Madan Park", "Messy inputs.", "SYSTEM INDEX"],
+  ["/lab", "Signal Intelligence — Madan Park", "Query the", "CASE INDEX"],
 ];
 
 for (const [path, title, marker, secondaryMarker] of routes) {
