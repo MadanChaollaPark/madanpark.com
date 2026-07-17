@@ -1,9 +1,0 @@
-.DS_Store
-.env
-.env.*
-node_modules/
-.qa/
-.qa-*.png
-tmp/
-dist/
-coverage/
