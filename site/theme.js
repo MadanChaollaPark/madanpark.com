@@ -1,0 +1,1 @@
+try{const saved=localStorage.getItem('mp-theme');document.documentElement.dataset.theme=saved==='light'?'light':'dark'}catch{}
