@@ -32,6 +32,11 @@ class LinkParser(HTMLParser):
 
 
 for html in ROOT.rglob("*.html"):
+    # The current site has its own root and is checked by scripts/check_site.py.
+    if html.relative_to(ROOT).parts[0] in {
+        "site", "node_modules", ".cloudflare", ".git", "dist"
+    }:
+        continue
     LinkParser(html).feed(html.read_text(encoding="utf-8"))
 
 if errors:
