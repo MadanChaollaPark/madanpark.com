@@ -14,3 +14,33 @@ html[data-theme=light]{color-scheme:light;--bg:#eeeee6;--fg:#1d2319;--muted:#606
 @media(max-width:700px){.case-artwork,.case-artwork.eu-cover{min-height:350px;margin:35px 0}.case-artwork .eu-mark{font-size:120px}}
 @media(max-width:360px){.site-header{gap:10px}.site-header .wordmark{font-size:20px}.site-header nav{gap:12px}.theme-toggle{width:28px;height:28px}.hero-caption{display:none}.eu-mark{font-size:112px}.about-main h2{font-size:42px}.recognition-row>p{font-size:20px;gap:9px}}
 @media(max-width:360px){.site-header{gap:8px}.site-header .wordmark{font-size:18px}.site-header nav{gap:9px}.site-header nav a{font-size:10px}.hero-message h1{font-size:19vw}.site-header .wordmark>span{font-size:11px}}
+/* A playful fourth project: CallMeMaybe. */
+.hello-project{display:grid;grid-template-columns:1.2fr 1fr;gap:65px;align-items:center;margin-top:75px;scroll-margin-top:30px}
+.hello-cover{min-height:490px;background:#c9b8ec;color:#352246}
+.hello-artwork{position:absolute;inset:0;display:grid;place-items:center}
+.hello-card{position:relative;background:#fbf5e9;color:#352246;width:310px;padding:23px 24px 20px;transform:rotate(-8deg);box-shadow:10px 20px 0 #4d32651c;transition:transform .4s}
+.hello-card>.micro{display:block;font-size:7px;letter-spacing:.08em}
+.hello-card>strong{display:block;font-family:var(--sans);font-size:49px;font-weight:400;line-height:.98;letter-spacing:-.065em;margin-top:23px}
+.hello-card>strong>em{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:65px;letter-spacing:-.025em}
+.hello-card-bottom{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-top:22px}
+.hello-card-bottom>span{font-size:12px;line-height:1.35;letter-spacing:-.02em}
+.hello-card-bottom small{display:block;font-size:6px;letter-spacing:.05em;line-height:1.5;max-width:100px;margin-top:16px}
+.hello-card img{width:112px;height:112px;background:white;display:block;max-width:none}
+.hello-doodle{position:absolute;font:105px/.8 'Instrument Serif',Georgia,serif;right:9%;top:12%;transform:rotate(16deg)}
+.hello-sticker{position:absolute;right:11%;bottom:21%;width:80px;height:80px;border-radius:50%;display:grid;place-content:center;background:#d5f75b;color:#26341a;text-align:center;font-size:10px;line-height:1.25;transform:rotate(14deg);box-shadow:2px 4px 0 #35224619}
+.hello-cover:hover .hello-card{transform:rotate(-3deg) translateY(-5px)}
+.hello-copy>.micro{color:var(--muted);font-size:9px;margin-bottom:20px}
+.hello-copy h3{font-size:35px;font-weight:400;letter-spacing:-.065em;line-height:1.1}
+.hello-copy h3 a{text-decoration:none;display:inline-flex;align-items:center;gap:26px}
+.hello-copy h3 a span{font-size:24px;color:var(--accent)}
+.hello-copy .hello-tagline{font-size:31px;letter-spacing:-.04em;line-height:1.1;margin-block:25px}
+.hello-tagline em{font-family:'Instrument Serif',Georgia,serif;font-size:41px;font-weight:400;color:var(--accent)}
+.hello-copy>p:not(.micro):not(.hello-tagline){color:var(--muted);font-size:14px;line-height:1.8;max-width:430px;margin-bottom:20px}
+.case-artwork.hello-cover{min-height:490px}
+.case-artwork.hello-cover .hello-doodle{right:23%;top:15%}
+.case-artwork.hello-cover .hello-sticker{right:29%;bottom:20%}
+@media(max-width:1050px){.hello-project{gap:35px;grid-template-columns:1.1fr 1fr}.hello-cover{min-height:470px}.hello-card{width:270px;padding:22px}.hello-card>strong{font-size:45px}.hello-card>strong>em{font-size:60px}.hello-card img{width:100px;height:100px}.hello-sticker{right:5%;bottom:19%}.hello-copy h3{font-size:29px}.hello-copy .hello-tagline{font-size:27px}.hello-tagline em{font-size:36px}}
+@media(max-width:700px){.hello-project{grid-template-columns:1fr;gap:25px;margin-top:45px}.hello-cover,.case-artwork.hello-cover{min-height:445px}.hello-card{width:260px;padding:21px}.hello-card>.micro{font-size:6px}.hello-card>strong{font-size:45px}.hello-card>strong>em{font-size:58px}.hello-card img{width:100px;height:100px}.hello-sticker{right:5%;bottom:20%;width:66px;height:66px;font-size:8px}.hello-copy>.micro{font-size:8px;margin-bottom:13px}.hello-copy h3{font-size:29px}.hello-copy .hello-tagline{margin-block:20px}.hello-copy>p:not(.micro):not(.hello-tagline){font-size:13px}.case-artwork.hello-cover .hello-sticker{right:6%}.case-artwork.hello-cover .hello-doodle{right:5%}.hello-doodle{font-size:80px;right:4%;top:13%}}
+@media(max-width:360px){.hello-card{width:225px;padding:17px}.hello-card>strong{font-size:40px}.hello-card>strong>em{font-size:52px}.hello-card img{width:85px;height:85px}.hello-card-bottom>span{font-size:10px}.hello-cover,.case-artwork.hello-cover{min-height:400px}.hello-sticker{width:56px;height:56px;font-size:7px;right:3%;bottom:20%}}
+@media(prefers-reduced-motion:reduce){.hello-cover:hover .hello-card{transform:rotate(-8deg)}}
+@media(max-width:700px){.hello-sticker,.case-artwork.hello-cover .hello-sticker{top:17%;bottom:auto;right:5%}}

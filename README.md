@@ -36,7 +36,7 @@ The check script validates the current `site/` tree. The older `scripts/check_li
 | Path | Purpose |
 | --- | --- |
 | `site/index.html` | Current portfolio homepage |
-| `site/work/` | EUJobs, ITCCK and GPTandME case-study pages |
+| `site/work/` | EUJobs, ITCCK, GPTandME and CallMeMaybe project pages |
 | `site/directions/` | Twelve visual/interaction experiments |
 | `site/atelier.css`, `atelier.js`, `portfolio-theme.js` | Current layout, interactive sculpture and theme implementation |
 | `site/portfolio.css` | Base styles for the preserved case-study pages |
