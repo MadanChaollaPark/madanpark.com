@@ -1,0 +1,50 @@
+{
+  "checked_on": "2026-11-09",
+  "principal_reference": {
+    "name": "Longbow",
+    "site": "https://db-longbow.webflow.io/",
+    "awards": [
+      {
+        "publisher": "Awwwards",
+        "award": "Site of the Day",
+        "date": "2026-07-12",
+        "url": "https://www.awwwards.com/sites/longbow",
+        "verification": "Live browser award record"
+      },
+      {
+        "publisher": "CSS Design Awards",
+        "award": "Website of the Day",
+        "date": "2026-06-09",
+        "url": "https://www.cssdesignawards.com/sites/longbow/49430/",
+        "verification": "Direct award record"
+      },
+      {
+        "publisher": "CSS Winner",
+        "award": "Site of the Day",
+        "date": "2026-05-21",
+        "url": "https://www.csswinner.com/details/longbow/19216",
+        "verification": "Direct award record"
+      },
+      {
+        "publisher": "WD Awards",
+        "award": "WD of the Day",
+        "date": "2026-06-02",
+        "url": "https://www.wdawards.com/web/longbow",
+        "verification": "Direct award record"
+      }
+    ]
+  },
+  "secondary_reference": {
+    "name": "BRAVIS International",
+    "site": "https://www.bravis.com/",
+    "award_announcement": "https://www.bravis.com/reports/reports-2920/",
+    "verification_note": "CSS Winner, CSSDA and Awwwards checked directly. FWA is creator-reported; the linked FWA record returned 404."
+  },
+  "original_work": [
+    "Thread sculpture",
+    "Project illustrations",
+    "Layout and responsive system",
+    "Typography composition"
+  ],
+  "claim_boundary": "The references received these awards. No design award is claimed for madanpark.com."
+}

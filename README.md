@@ -4,7 +4,7 @@
 
 [Live website](https://madanpark.com) · [Current source](site/) · [Automated checks](scripts/check_site.py)
 
-The current website source lives in **`site/`**. This snapshot was checked against the live homepage on 20 October 2026. Older HTML at the repository root is retained as the earlier GitHub Pages implementation.
+The current website source lives in **`site/`**. The current design was refreshed on 9 November 2026. Older HTML at the repository root is retained as the earlier GitHub Pages implementation.
 
 ## Software engineering
 
@@ -38,7 +38,9 @@ The check script validates the current `site/` tree. The older `scripts/check_li
 | `site/index.html` | Current portfolio homepage |
 | `site/work/` | EUJobs, ITCCK and GPTandME case-study pages |
 | `site/directions/` | Twelve visual/interaction experiments |
-| `site/portfolio.css`, `portfolio.js`, `portfolio-theme.js` | Current layout, interaction and theme implementation |
+| `site/atelier.css`, `atelier.js`, `portfolio-theme.js` | Current layout, interactive sculpture and theme implementation |
+| `site/portfolio.css` | Base styles for the preserved case-study pages |
+| `award-redesign-references.json`, `site/colophon/` | Verified four-platform award references and design notes |
 | `site/_headers`, `site/_redirects` | Static response policy and redirects |
 | `scripts/check_site.py` | Current-site integrity checks |
 | `scripts/build.mjs` | Static asset build |
